@@ -389,7 +389,7 @@
 }
 
 .divider-image-2 {
-  background-image: url(../img/Main.png);
+  background-image: url(../img/Main.webp);
 }
 
 .divider-image-3 {
@@ -404,7 +404,7 @@
   background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
-.divider-image-6{background-image:url(../img/Main.png)}.divider-image-7 {
+.divider-image-6{background-image:url(../img/Main.webp)}.divider-image-7 {
   background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
@@ -477,7 +477,7 @@
 }
 
 .headline-img-04::before {
-  background-image: url(../img/Icon.png);
+  background-image: url(../img/Icon.webp);
 }
 
 .headline-img-05::before {

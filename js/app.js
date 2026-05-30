@@ -335,7 +335,7 @@ $(function() {
   // --------------------------------------------- //
   if(!Modernizr.svg) {
     $("img[src*='svg']").attr("src", function() {
-      return $(this).attr("src").replace(".svg", ".png");
+      return $(this).attr("src").replace(".svg", ".webp");
     });
   };
   // --------------------------------------------- //
@@ -633,7 +633,7 @@ $(function() {
     var th = $(this);
     $.ajax({
       type: "POST",
-      url: "mail.php", //Change
+      url: "https://api.web3forms.com/submit", //Change
       data: th.serialize()
     }).done(function() {
       $('.contact').find('.form').addClass('is-hidden');
@@ -720,7 +720,6 @@ if(document.querySelector(".stack-item")) {
   function initCards(){
     animation.clear();
     cardHeight = cards[0].offsetHeight;
-    //console.log("initCards()", cardHeight);
     cards.forEach((card, index) => {
       if(index > 0){
         gsap.set(card, {y:index * cardHeight,});
@@ -1417,7 +1416,7 @@ var injectorOptions = {
   }
 };
 SVGInjector(mySVGsToInject, injectorOptions, function (totalSVGsInjected) {
-  console.log('We injected ' + totalSVGsInjected + ' SVG(s)!');
+
 });
 // --------------------------------------------- //
 // SVG DOM Injection End
