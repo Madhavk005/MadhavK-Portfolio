@@ -633,7 +633,7 @@ $(function() {
     var th = $(this);
     $.ajax({
       type: "POST",
-      url: "https://api.web3forms.com/submit", //Change
+      url: "https://formsubmit.co/ajax/mdhavkohli15@gmail.com", //Change
       data: th.serialize()
     }).done(function() {
       $('.contact').find('.form').addClass('is-hidden');
